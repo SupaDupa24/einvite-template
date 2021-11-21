@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-Invite</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class='heading'>Welcome to all that receive!</h1>
+        </header>
+        <div id='big-container'>
+            <div id="message-container">
+                <div id='message-1'>Merry Christmas to you and yours</div>
+            </div>
+            <div id="other-container">
+                <div id="message-2">We hope to see you at our wonderful engagement</div>
+            </div>
+            <div id="last-container">
+                <div id="message-3">Please submit your information at the bottom to be contacted with updates</div>
+            </div>
+            <form
+            action="https://formspree.io/f/xknkddoe"
+            method="POST">
+                <div id="form-container">
+                    <label>Name:
+                        <input type="text">
+                    </label>
+                    <label>
+                        Your email:
+                        <input type="email" name="_replyto">
+                      </label>
+                      <label>
+                          Number:
+                          <input type="text">
+                      </label>
+
+                      <label>
+                        Your message:
+                        <textarea name="message"></textarea>
+                      </label>
+                      
+                      
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <script src='script.js'></script>
+    </body>
+</html>
